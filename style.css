@@ -184,6 +184,11 @@ body {
     display: block;
   }
 }
+@media (max-width: 350px) {
+  .header-third-line ul {
+    padding-top: 25px;
+  }
+}
 .header-third-line ul li a {
   font-size: 16px;
   color: #000000;

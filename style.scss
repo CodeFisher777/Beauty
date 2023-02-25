@@ -84,16 +84,14 @@ body {
       width: 337px;
       align-items: center;
 
-      @media(max-width: 350px) {
+      @media (max-width: 350px) {
         flex-direction: column;
-       
       }
 
       p {
         font-size: 16px;
-        @media(max-width: 350px) {
+        @media (max-width: 350px) {
           padding: 20px 0;
-         
         }
       }
       button {
@@ -126,12 +124,14 @@ body {
     @media (max-width: 700px) {
       display: block;
     }
+
     span {
       position: absolute;
       width: 30px;
       height: 3px;
       background-color: white;
       left: 5px;
+
       transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
     }
     span:nth-child(1) {
@@ -180,6 +180,9 @@ body {
         width: auto;
         height: auto;
         display: block;
+      }
+      @media (max-width: 350px) {
+        padding-top: 25px;
       }
       li {
         a {
@@ -260,35 +263,31 @@ body {
     margin: 0 auto;
     max-width: 1920px;
 
-    
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      
     }
     img:first-child {
       @media (max-width: 700px) {
-        display:none;
-       }
+        display: none;
+      }
     }
     img:nth-child(2) {
-      display:none;
-      @media (max-width: 700px) {  
-        display:block;
-
-       }
-       @media (max-width: 340px) {    
-        display:none;
-       }
+      display: none;
+      @media (max-width: 700px) {
+        display: block;
+      }
+      @media (max-width: 340px) {
+        display: none;
+      }
     }
     img:last-child {
-      display:none;
-      @media (max-width: 340px) {    
-        display:block;
-       }
+      display: none;
+      @media (max-width: 340px) {
+        display: block;
+      }
     }
- 
   }
 }
 .goods {
@@ -311,9 +310,8 @@ body {
       text-align: center;
     }
     img {
-      @media(max-width: 390px) {
+      @media (max-width: 390px) {
         padding: 15px 0;
-       
       }
     }
 
@@ -403,11 +401,9 @@ body {
       background-color: #66c05d;
       @media (max-width: 1150px) {
         margin-bottom: 20px;
-        
       }
-      @media(max-width: 390px) {
-       transform: scale(0.8);
-       
+      @media (max-width: 390px) {
+        transform: scale(0.8);
       }
 
       &-container {
